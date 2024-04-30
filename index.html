@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Code display as Web Component</title>
+
+    <script src="code-display.js" defer></script>
+    <link rel="stylesheet" href="code-display.css" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <code-display>
+        <article slot="code">
+          <code>
+            const greeting = "Hello, world!"; const greeting = "Hello, world!";
+            const greeting = "Hello, world!"; const greeting = "Hello, world!";
+            const greeting = "Hello, world!"; console.log(greeting);
+          </code>
+        </article>
+      </code-display>
+    </main>
+  </body>
+</html>

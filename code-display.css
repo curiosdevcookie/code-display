@@ -1,0 +1,7 @@
+code-display article {
+  background-color: #171616;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  color: aliceblue;
+}
